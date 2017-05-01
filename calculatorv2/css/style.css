@@ -1,0 +1,44 @@
+body{
+    border: 2px solid #E7E5D4;
+    display: table;
+    font-size: 10px;
+    height: 70px;
+    padding: 1px;
+    width: 40px;
+    text-align: center;
+    color: #D07662;
+}
+
+span{
+    background-color: #84ACB2;
+    display: table;
+}
+
+.display input{
+    width: 146px;
+    margin: auto;
+    background-color: #E7E5D4;
+}
+
+button{
+    left: auto;
+	bottom: auto;
+	min-width: 30px;
+    width: auto;
+	height: auto;
+	margin: 1px;
+    background-color: #A2B1AF;
+}
+
+
+.salvar, .apagar{
+    width: auto;
+}
+
+#limpar{
+    width: auto;
+}
+
+#resultado{
+    text-align: center;
+}

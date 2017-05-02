@@ -1,44 +1,64 @@
-body{
-    border: 2px solid #E7E5D4;
-    display: table;
-    font-size: 10px;
-    height: 70px;
-    padding: 1px;
-    width: 40px;
-    text-align: center;
-    color: #D07662;
+table{
+    background-color: #E7E5D4;
+    border: medium #D07662;
+    border-radius: 10px;
 }
 
-span{
-    background-color: #84ACB2;
+table tr td input{
+    border-radius: 3px;
+}
+
+body{
+    display: table;
+    font-size: 11px;
+    height: 70%;
+    padding: 8px;
+    width: 145px;
+    text-align: center;
+}
+
+.display{
+    
+    padding: 6px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;   
+    font-size: 3px;
+    height: 10px;
+}
+/*
+form{
     display: table;
 }
 
 .display input{
     width: 146px;
     margin: auto;
-    background-color: #E7E5D4;
 }
 
-button{
-    left: auto;
-	bottom: auto;
+/*button{
+    left: 25%;
+	bottom: 25%;
 	min-width: 30px;
-    width: auto;
-	height: auto;
-	margin: 1px;
-    background-color: #A2B1AF;
+    width: 25%;
+	height: 25%;
+	margin: 25%;
 }
 
 
 .salvar, .apagar{
-    width: auto;
+    width: 100%;
 }
 
 #limpar{
-    width: auto;
+    width: 100%;
 }
 
 #resultado{
-    text-align: center;
+    text-align: right;
+    border: solid black 1px;
+    min-width: 100%;
 }
+
+*/
